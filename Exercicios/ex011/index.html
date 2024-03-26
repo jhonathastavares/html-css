@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem em HTML</title>
+</head>
+<body>
+   <h1>Imagem dinamica</h1>
+   <p>tente alterar aimagem em varios dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="imagem flexivel">
+    </picture>
+    <h1>introduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/super.mp3" type="audio/mpeg">
+        <source src="midia/super.ogg" type="audio/ogg">
+        <source src="midia/super.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

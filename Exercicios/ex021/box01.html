@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: burlywood;
+        }
+        header {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: greenyellow;
+            padding: 3px;
+            box-shadow: 1px 1px 1px 1px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav > a :hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+            border-radius:3px;
+        }
+        article {
+            background-color: cornflowerblue;
+            padding: 5px;
+        }
+        footer {
+            background-color: coral;
+            color: rgb(3, 8, 7);
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto"> </section>
+        <article>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure numquam, nemo libero quaerat quod culpa consectetur reiciendis quasi, asperiores voluptas itaque totam, illo quam quo officiis sed ratione cupiditate laudantium!</h2>
+            <aside>
+                <p>Artigo escrito</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Jhonathas</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
