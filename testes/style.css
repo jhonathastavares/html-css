@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+**{
+    width: 0;
+    height: 0;
+}
+:root{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+header {
+    background-color: rgba(95, 158, 160, 0.527);
+}
+.header .logo {
+    display: flex;
+}
+.header .navbar {
+    text-decoration: none;
+    display: flex;
+    font-size: 1rem;
+}
